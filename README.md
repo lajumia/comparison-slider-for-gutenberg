@@ -1,1 +1,1 @@
-# slider-addon-for-gutenberg
+# comparison-slider-for-gutenberg
