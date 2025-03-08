@@ -1,0 +1,1 @@
+# slider-addon-for-gutenberg
