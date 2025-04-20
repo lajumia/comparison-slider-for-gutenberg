@@ -1,0 +1,29 @@
+{
+    "apiVersion": 2,
+    "name": "comparison-slider-for-gutenberg/comparison-slider",
+    "title": "Comparison Slider",
+    "category": "media",
+    "icon": {
+      "foreground": "#fe0000",
+      "src": "images-alt2"
+    },
+    "description": "A before/after image comparison slider block for Gutenberg.",
+    "supports": {
+      "align": ["wide", "full"]
+    },
+    "attributes": {
+      "beforeImage": {
+        "type": "object",
+        "default": { "url": "", "alt": "" }
+      },
+      "afterImage": {
+        "type": "object",
+        "default": { "url": "", "alt": "" }
+      }
+    },
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./editor.css",
+    "style": "file:./style.css"
+    
+  }
+  
